@@ -1,0 +1,216 @@
+body{
+    padding         :   0;
+    margin          :   0;
+    font-family     :   Helvetica;
+}
+
+#header{
+    position        :   fixed;
+    top             :   0;
+    left            :   0;
+    z-index         :   500;
+    width           :   100%;
+    height          :   80px;
+    background-image:   url('images/wood-bg.png');
+    background-repeat:  repeat-x;
+}
+
+#header img{
+    display         :   block;
+    margin          :   auto;
+    height          :   70%;
+    padding-top     :   15px;
+}
+
+#tabs-top{
+    position        :   fixed;
+    top             :   80px;
+    left            :   0;
+    z-index         :   500;
+    width           :   100%;
+    height          :   40px;
+    background-color: green;
+}
+
+#tabs-top a{
+    float           :   left;
+    display         :   block;
+    width           :   33%;
+    height          :   35px;
+    font-weight     :   700;
+    color           : white;
+    text-align      :   center;
+    text-decoration :   none;
+    padding-top     :   12px;
+}
+
+#main-home{
+    margin-top      :   120px;
+    margin-bottom   :   35px;
+}
+
+#tabs-bottom{
+    position        :   fixed;
+    bottom          :   0;
+    left            :   0;
+    z-index         :   500;
+    width           :   100%;
+    height          :   40px;
+    background-color: forestgreen;
+}
+
+#tabs-bottom a{
+    float           :   left;
+    display         :   block;
+    width           :   50%;
+    height          :   35px;
+    font-weight     :   700;
+    color           : white;
+    text-align      :   center;
+    text-decoration :   none;
+    padding-top     :   none;
+}
+
+#main {
+    margin-top      :   119px;
+    background-image:   url('images/map-blur.png');
+    background-repeat:  repeat-y;
+}
+
+#content {
+    padding         :   1px;
+    padding-bottom  :   50px;
+}
+
+a.info-box {
+    text-decoration :   none;
+    background      : rgba(255, 255, 55, .8);
+    width           :   90%;
+    height          :   90px;
+    display         :   block;
+    margin          :   auto;
+    margin-top      :   12px;
+    padding         :   1px;
+}
+
+.info-box img{
+    height          :   70px;
+    margin          :   10px;
+    float           :   left;
+}
+
+.info-box h3{
+    padding         :   0;
+    margin-bottom   :   0;
+    width           :   90%;
+    color           : #572800;
+}
+
+.info-box p{
+    margin          :   0;
+    padding         :   0;
+    width           :   90%;
+    color           : #131313;
+}
+
+.info-box img.right{
+    float           :   right;
+    margin-top      :   25px;
+    height          :   40px;
+}
+
+#info-box-full{
+    background-color: rgba(255, 255, 55, 0.8);
+    width           :   90%;
+    text-align      :   center;
+    display         :   block;
+    margin          :   auto;
+    margin-top      :   12px;
+    padding         :   10px;
+}
+
+#info-box-full img{
+    width           :   100%;
+}
+
+#info-box-full h3{
+    text-align      :   center;
+}
+
+#tabs-bottom #tab-back{
+    width           :   100%; /* center 'back' button since its the only one */
+}
+
+#info-box-full table{
+    border-collapse :   collapse;
+    border-color    : green;
+    width           :   100%;   /* make table full width to look good with centered <p>'s */
+    text-align      :   center;
+}
+
+#info-box-full table td{
+    padding         :   5px 10px 5px 10px; /* pad table elements since border is visible */
+}
+
+#info-box-full table td img{
+    margin          :   auto;
+    padding         :   0 0 0 0;
+}
+
+img.info-box-weather-icon{
+   height           :   30px;
+   margin-right     :   10px;
+   /* 
+    margin: 10px;
+    float: left; removed to center img
+   */
+}
+
+.inline{
+    display         :   inline-block; /* display image (weather icon) and text on same line */
+}
+
+#info-box-full ul{
+    list-style-type :   none; /* bullet points were left aligned */
+    margin: 0;
+    padding: 0;
+}
+
+h1.info-box-weather-icon{
+    font-size       :   65px;
+    font-weight     :   200;
+    padding         :   0;
+    margin          :   0;
+}
+
+input{
+    width           :   100%;
+    height          :   25px;
+    margin          :   12px 0 0 -3px; /* negative margin to center form fields */
+    border          :   1px solid #929;
+    text-align      :   center;
+}
+
+textarea{
+    width           :   100%;
+    height          :   40px;
+    margin          :   12px 0 0 -3px;
+    border          :   1px solid #929;
+    text-align      :   center;
+}
+
+.button{
+    display         :   block;
+    background-color: forestgreen;
+    text-decoration :   none;
+    text-align      :   center;
+    color           : white;
+    font-size       :   16px;
+    font-weight     :   600;
+    margin          :   12px 0;
+    padding         :   8px 0;
+}
+
+
+
+
